@@ -1,0 +1,44 @@
+Passo 1: Entrar no sistema da empresa (no exemplo é o link do drive = )
+
+Passo 2: Navegar no sistema e encontrar a pasta base de vendas (no exemplo é a pasta exportar)
+
+Passo 3: Fazer o download da base de vendas
+
+Passo 4: Importar a base de vendas pro python
+
+Passo 5: Calcular os indicadores da empresa
+
+Passo 6: Emvoar um e-mail para a diretoria com os indicadores de venda
+
+
+
+instalar
+
+pyautogui
+pyperclip (vem junto com o pyautogui)
+time
+pyopenxl
+pandas
+numpy
+
+
+PYAUTOGUI
+
+pyautogui.click() - clicar com o mouse
+pyautogui.press() - clicar uma tecla no teclado
+pyautogui.hotkey() - clicar um conjunto de teclas
+pyautogui.write() - escrever um texto]
+pyautogui.PAUSE() - define o tempo de aguardar em segundos
+pyautogui.position() - capturar a posição do mouse
+
+
+
+pyperclip.copy - copiar um texto
+
+
+time.sleep(tempo em segundos) - coloca o codigo para dormir
+
+
+tabela = pd.read_excel(r"C:\Users\Familia Souza\Downloads\Vendas - Dez.xlsx")    = O r antes do caminho diz ao python que ele deve ler o texto como raw(cru) e não pegar códigos dele
+
+sheet_name=" "      - Diz o nome da aba dentro do arquivo excel que você quer ler 
